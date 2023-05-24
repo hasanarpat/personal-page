@@ -1,0 +1,24 @@
+:root {
+	/* Color Set*/
+	--main-color: 249, 245, 246;
+	--secondary-color: black;
+	--secondary-color-light: #999;
+	--light-color:  #0b4475;
+	/* Shadow Set*/
+	--shadow-webkit: 1px 1px 11px 3px rgba(0, 0, 0, 0.34);
+	--shadow-box: 1px 1px 11px 3px rgba(0, 0, 0, 0.34);
+}
+
+.app {
+	background: rgb(23, 31, 23);
+	background-size: 45%;
+	background-position: top;
+	overflow-x: hidden;
+	height: 100vh;
+	
+
+	.layout {
+		width: 85%;
+		margin:auto;
+	}
+}
