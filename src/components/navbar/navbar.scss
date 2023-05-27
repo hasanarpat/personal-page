@@ -1,53 +1,90 @@
-.navbar{
-    width: 100vw;
-    height: 10vh;
-    background-color: var(--secondary-color);
-    position: fixed;
+.navbar {
+	width: 100vw;
+	height: 10vh;
+	background-color: var(--secondary-color);
+	position: fixed;
 
-    &.scrolled{
-        background-color: var(--secondary-color-light);
-        border-radius: 250px;
-        width: 75%;
-        left: 12.5%;
-        transition:linear 500ms;
-    }
+	&.scrolled {
+		background-color: var(--secondary-color-light);
+		border-radius: 250px;
+		width: 75%;
+		left: 12.5%;
+		transition: linear 500ms;
+	}
 
-    .wrapper{
-        width: 100%;
-        height: 100%;
-        padding: 0 30px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+	.wrapper {
+		width: 100%;
+		height: 100%;
+		padding: 0 30px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 
-        .left{
-            width: 45%;
-            margin-left: auto;
-            img{
-                width: 40px;
-                height: 40px;
-                border-radius: 5px;
-            }
-        }
+		.left {
+			width: 45%;
+			margin-left: auto;
+			img {
+				width: 40px;
+				height: 40px;
+				border-radius: 5px;
+			}
+		}
 
-        .right{
-            width: 40%;
-            margin-right: auto;
-            .items{
-                display: flex;
-                justify-content: space-around;
-                .item{
+		.right {
+			width: 40%;
+			margin-right: auto;
+			.items {
+				display: flex;
+				justify-content: space-around;
+				.item {
+					border-radius: 10px;
+					width: 100%;
+					padding: 15px;
+					.link {
+						text-decoration: none;
+						align-self: center;
+						color: var(--secondary-color-light);
+						
+					}
 
-                    .link{
-                        text-decoration: none;
-                        color: var(--secondary-color-light);
+					&:hover {
+						cursor: pointer;
+						background-color: var(--secondary-color-light);
+						.link{
+							
+							color: var(--secondary-color);
+						}
+					}
+				}
+			}
+		}
+	}
 
-                        &:hover{
-                            color: var(--light-color);
-                        }
-                    }
-                }
-            }
-        }
-    }
+	@media (max-width: "720px") {
+        -webkit-box-shadow:var(--shadow-webkit);
+        box-shadow: var(--shadow-box);
+		position: fixed;
+		z-index: 5;
+		&.scrolled {
+			background-color: inherit;
+			border-radius: 5px;
+			width: 100%;
+            left: 0;
+			transition: linear 500ms;
+		}
+		.wrapper {
+			justify-content: center;
+			flex-direction: column;
+			.left {
+                padding-top: 25px;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+			}
+			.right {
+				width: 100%;
+                padding-bottom: 5px;
+			}
+		}
+	}
 }

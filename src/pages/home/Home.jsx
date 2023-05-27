@@ -10,12 +10,12 @@ const Home = () => {
 				<h2>I'm a Web developer.</h2>
 				<span>An autodidactic learner and developer.</span>
 				<p>
-					I’m currently developing apps with ReactJS and NodeJS if I need. I'm
+					I’m currently developing apps with ReactJS and NodeJS if I need. And of course I'm
 					open to any internship offers.
 				</p>
         
-      <span ><a href="/projects">See my projects</a><GitHubIcon className="icon"/></span>
-      <span ><a href="https://hasanarpat.github.io/" target="_blank">My blog</a><BookIcon className="icon"/></span>
+      <div className="button"><span ><a href="/projects">See my projects <GitHubIcon className="icon"/></a></span>
+      <span ><a href="https://hasanarpat.github.io/" target="_blank">My blog <BookIcon className="icon"/></a></span></div>
        
 			</div>
 			<div className="bottom">

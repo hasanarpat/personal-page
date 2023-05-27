@@ -11,7 +11,7 @@ const projects = [
 		title: "Admin Dashboard",
 		desc: "React router, Firebase Auth-Storage-Database, React Charts and MUI search optimized tables. Anything you can want from an admin panel",
     demo:"https://friendly-narwhal-c7e9f6.netlify.app/",
-    src:""
+    src:"https://github.com/hasanarpat/react-admin-panel"
 	},{
 		img: Pr5,
 		title: "ThreeJS Portfolio",
@@ -48,7 +48,8 @@ const Projects = () => {
 				<div className="gridContainer">
 					{
             projects.map(item=>
-              <div className="card">
+              <div className="card" key={item.
+			  img}>
 						<div className="line">
 							<div className="dot dotOne"></div>
 							<div className="dot dotTwo"></div>
