@@ -10,7 +10,7 @@ const projects = [
 		img: Pr1,
 		title: "Admin Dashboard",
 		desc: "React router, Firebase Auth-Storage-Database, React Charts and MUI search optimized tables. Anything you can want from an admin panel",
-    demo:"https://friendly-narwhal-c7e9f6.netlify.app/",
+    demo:"https://deft-youtiao-3b9b91.netlify.app",
     src:"https://github.com/hasanarpat/react-admin-panel"
 	},{
 		img: Pr5,
@@ -22,13 +22,13 @@ const projects = [
 		img: Pr2,
 		title: "Netflix Clone",
 		desc: "React router, Firebase Auth, a beatiful slider for continue to watch. React vide player and much.",
-    demo:"https://app.netlify.com/sites/gilded-cupcake-b2f4ae/overview",
+    demo:"https://gilded-cupcake-b2f4ae.netlify.app/",
     src:"https://github.com/hasanarpat/Netflix-React-FirebaseAuth"
 	},{
 		img: Pr3,
 		title: "An Event Ticket Page",
 		desc: "An useful design for ticket selling companies.",
-    demo:"https://coruscating-frangollo-8d8527.netlify.app/",
+    demo:"https://preeminent-fudge-34a5c6.netlify.app/",
     src:"https://github.com/hasanarpat/m22-challenge"
 	},{
 		img: Pr4,
