@@ -10,14 +10,14 @@ const projects = [
 		img: Pr1,
 		title: "Admin Dashboard",
 		desc: "React router, Firebase Auth-Storage-Database, React Charts and MUI search optimized tables. Anything you can want from an admin panel",
-    demo:"https://deft-youtiao-3b9b91.netlify.app",
+    demo:"https://deft-youtiao-3b9b91.netlify.app/",
     src:"https://github.com/hasanarpat/react-admin-panel"
 	},{
-		img: Pr5,
-		title: "ThreeJS Portfolio",
-		desc: "ThreeJS, EmailJS, GLB-GLTF objects and animation. A nice portfolio template",
-    demo:"https://jolly-pony-e59a00.netlify.app/",
-    src:"https://github.com/hasanarpat/react-portfolio-threejs"
+		img: "https://sage-meringue-1cdf9d.netlify.app/_next/image?url=%2Fslide3.jpg&w=1920&q=75",
+		title: "Restaurant Food Delivery Site",
+		desc: "Builded with NextJS, Tailwind CSS, multi page and fully responsive ordering and tracking app for Restaurants.",
+    demo:"https://sage-meringue-1cdf9d.netlify.app/",
+    src:"https://github.com/hasanarpat/Restaurant-Food-Delivery-NextJS"
 	},{
 		img: Pr2,
 		title: "Netflix Clone",
@@ -25,11 +25,11 @@ const projects = [
     demo:"https://gilded-cupcake-b2f4ae.netlify.app/",
     src:"https://github.com/hasanarpat/Netflix-React-FirebaseAuth"
 	},{
-		img: Pr3,
-		title: "An Event Ticket Page",
-		desc: "An useful design for ticket selling companies.",
-    demo:"https://preeminent-fudge-34a5c6.netlify.app/",
-    src:"https://github.com/hasanarpat/m22-challenge"
+		img: "https://github.com/hasanarpat/Movie-Site-OmdbAPI-Imdb/raw/main/public/img/gif2.gif",
+		title: "Movie Site, Add Favorite Movies",
+		desc: "You can search and list paginated movies and examine them. If you like add it to fyour favorites.",
+    demo:"https://dancing-daffodil-9d82fe.netlify.app/",
+    src:"https://github.com/hasanarpat/Movie-Site-OmdbAPI-Imdb/tree/main"
 	},{
 		img: Pr4,
 		title: "Who Wants to Be A Millionare",
