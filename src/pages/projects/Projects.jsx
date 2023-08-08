@@ -22,7 +22,7 @@ const projects = [
 		img: Pr2,
 		title: "Netflix Clone",
 		desc: "React router, Firebase Auth, a beatiful slider for continue to watch. React vide player and much.",
-    demo:"https://gilded-cupcake-b2f4ae.netlify.app/",
+    demo:"https://preeminent-fudge-34a5c6.netlify.app/",
     src:"https://github.com/hasanarpat/Netflix-React-FirebaseAuth"
 	},{
 		img: "https://github.com/hasanarpat/Movie-Site-OmdbAPI-Imdb/raw/main/public/img/gif2.gif",
